@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+
+
+
+
+.hero::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    height: 300px;
+    width: 300px;
+}
+
+
+.hero-image {
+    position: relative;
+    @apply after:absolute after:bottom-0 after:left-0 after:w-3/4 after:h-3/4 after:bg-red-500 after:-ml-36 after:-mb-12;
+}
+
+.hero-image::after, .hero::before, .projects::after, .projects::before, .experience::after, .experience::before, .skills::after, .skills::before {
+    background: linear-gradient(
+		260deg,
+		#8750f7 0%,
+		rgba(115, 67, 210, 0) 100%
+	);
+    filter: blur(150px);
+    pointer-events: none;
+    user-select: none;
+}
+
+.projects::after{
+    background: linear-gradient(260deg, #3d2070 0%, rgba(115, 67, 210, 0) 100%);
+}
+
+.projects::before{
+    background: linear-gradient(260deg, #013668 0%, rgba(115, 67, 210, 0) 100%);
+}
+
+.skills::after {
+    background: linear-gradient(260deg, #1e3368 0%, rgba(115, 67, 210, 0) 100%)
+}
+
+.skills::before {
+    background: linear-gradient(260deg, #101b37 0%, rgba(115, 67, 210, 0) 100%);
+}
+
+.experience::after {
+    background: linear-gradient(260deg, #0d0817 0%, rgba(115, 67, 210, 0) 100%);
+}
+
+.experience::before {
+    background: linear-gradient(260deg, #080721 0%, #7343d236 100%) 
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #121212; 
+}
+::-webkit-scrollbar-thumb {
+    background-color: #333; 
+    border-radius: 5px;
+  }
+  
+::-webkit-scrollbar-track {
+    background-color: #121212; 
+  }
