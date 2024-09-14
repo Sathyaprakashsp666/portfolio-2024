@@ -15,7 +15,7 @@ const Skill = ({ skill }: {skill:typeof skills[0]}) => {
         alt={skill.item}
       />
       <p className="group-hover:text-purple-500 relative justify-self-end h-1/4 font-bold text-slate-500 text-xl transition-colors duration-500">
-        {skill.percentage}
+        {/* {skill.percentage} */}
       </p>
     </div>
     <p className="relative font-light text-base text-cyan-200 group-hover:text-opacity-100 tracking-tighter transition-colors duration-500">{skill.item}</p>
