@@ -75,7 +75,7 @@ const Showcase = () => {
         </p>
         <div className="my-4 flex flex-col items-center gap-6 sm:flex-row">
           <a
-            href="https://drive.google.com/file/d/1Rhn3plMby6A6Knch4reMD_n0NZJVGpDi/view?usp=sharing"
+            href="https://drive.google.com/file/d/1zHJfetf9JIIY0F1E57sFSsW2dJGiZguF/view?usp=sharing"
             className="rounded-full border border-[#aa82faa6] px-5 py-4 text-sm font-medium text-white transition-all duration-200 hover:bg-purple-600 sm:px-7"
             target="_blank"
           >
