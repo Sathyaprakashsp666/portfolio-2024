@@ -37,18 +37,26 @@ const FixedNav = () => {
         className,
       )}
     >
-      <Container className="flex justify-between items-center gap-3 px-2 sm:px-10">
+      <Container className="flex items-center justify-between gap-3 px-2 sm:px-10">
         <div className="flex items-center gap-8 xl:basis-1/2">
-          <h1 className="font-bold text-5xl text-white cursor-pointer select-none" onClick={() => window.scrollTo({top:0})}>V</h1>
-          <span className="md:inline-flex hidden bg-red font-medium text-me text-white text-xs hover:text-cyan-300 transition-colors cursor-pointer">
-            <a href="mailto:varad2k12@gmail.com"> sathyaprakash.sp.6@gmail.com</a>
+          <h1
+            className="cursor-pointer select-none text-5xl font-bold text-white"
+            onClick={() => window.scrollTo({ top: 0 })}
+          >
+            V
+          </h1>
+          <span className="bg-red text-me hidden cursor-pointer text-xs font-medium text-white transition-colors hover:text-cyan-300 md:inline-flex">
+            <a href="mailto:sathyaprakash.sp.@gmail.com">
+              {" "}
+              sathyaprakash.sp.6@gmail.com
+            </a>
           </span>
         </div>
-        <div className="flex justify-end items-center gap-6 lg:gap-0 xl:basis-1/2">
+        <div className="flex items-center justify-end gap-6 lg:gap-0 xl:basis-1/2">
           <DesktopNavMenu />
           <a
-            href="mailto:varad2k12@gmail.com"
-            className="bg-[linear-gradient(to_right,#8750f7_0%,#2a1454_51%,#8750f7_100%)] ml-14 px-3 sm:px-7 py-2.5 rounded-full font-bold text-[10px] text-white sm:text-sm transition-all duration-500 select-none [background-size:200%] hover:[background-position:-100%] focus:focus-visible:outline-none"
+            href="mailto:sathyaprakash.sp.6@gmail.com"
+            className="ml-14 select-none rounded-full bg-[linear-gradient(to_right,#8750f7_0%,#2a1454_51%,#8750f7_100%)] px-3 py-2.5 text-[10px] font-bold text-white transition-all duration-500 [background-size:200%] hover:[background-position:-100%] focus:focus-visible:outline-none sm:px-7 sm:text-sm"
           >
             Contact Me!
           </a>
