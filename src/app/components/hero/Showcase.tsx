@@ -9,7 +9,7 @@ const SocialIcons = () => {
   const links = [
     {
       icon: FaLinkedin,
-      link: "https://github.com/Sathyaprakashsp666",
+      link: "https://www.linkedin.com/in/sathya-prakasha-p-2990b412b",
       label: "Go to Sathya's LinkedIn Profile",
     },
     // {
