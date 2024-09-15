@@ -12,7 +12,7 @@ const data = [
 user-specific feature management and improving administrative processes.
 `,
 
-      `– Developed reusable custom components such as Modal, Drawer, Table, and Grouped Avatar, enhancing code reusability
+      `Developed reusable custom components such as Modal, Drawer, Table, and Grouped Avatar, enhancing code reusability
 and consistency across the application`,
 
       `Integrated advanced data visualization tools like Chart.js to provide real-time insights and analytics, improving
