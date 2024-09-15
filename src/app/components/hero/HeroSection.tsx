@@ -3,7 +3,7 @@ import Showcase from "./Showcase";
 
 const HeroSection = () => {
   return (
-    <section className="bg-darkBlue w-full hero">
+    <section className="bg-slate-800 w-full hero">
       <Navbar />
       <Showcase />
     </section>

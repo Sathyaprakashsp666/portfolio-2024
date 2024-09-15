@@ -33,7 +33,7 @@ const FixedNav = () => {
   return (
     <nav
       className={cn(
-        "fixed top-0 z-[99999] w-full bg-darkBlue px-8 py-5 transition-all duration-200 md:px-10",
+        "fixed top-0 z-[99999] w-full bg-slate-800 px-8 py-5 transition-all duration-200 md:px-10",
         className,
       )}
     >

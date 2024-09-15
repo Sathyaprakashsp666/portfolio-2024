@@ -13,7 +13,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       tabIndex={0}
       className="relative flex w-full before:absolute before:-inset-0 before:z-10 before:h-full before:w-full before:animate-none before:rounded-xl before:bg-gradient-to-br before:from-red-800 before:to-purple-500 before:opacity-0 before:blur-[5px] before:transition-all before:duration-500 hover:before:opacity-100 focus:focus-within:focus-visible:outline-none focus:focus-within:focus-visible:before:opacity-100"
     >
-      <div className="z-20 flex min-h-72 w-full flex-col rounded-xl border border-[#2a1454] bg-darkBlue p-4 shadow-2xl shadow-[#04030b] md:p-6 lg:flex-row lg:gap-3 lg:p-8">
+      <div className="z-20 flex min-h-72 w-full flex-col rounded-xl border border-[#2a1454] bg-slate-800 p-4 shadow-2xl shadow-[#04030b] md:p-6 lg:flex-row lg:gap-3 lg:p-8">
         <article className="flex w-full select-none flex-col gap-3 sm:select-auto lg:w-[40%]">
           <span className="text-md font-light text-[#8750f7] hover:opacity-85">
             {project.category}

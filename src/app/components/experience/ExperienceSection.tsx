@@ -12,12 +12,11 @@ const meta = {
 
 const ExperienceSection = () => {
   return (
-    <section id="experience" className="bg-darkBlue w-full">
+    <section id="experience" className="w-full bg-slate-800">
       <Container
         as="div"
-        className="after:block relative before:top-1/4 after:top-2/4 after:right-0 before:left-0 before:absolute after:absolute flex flex-col items-center gap-16 px-6 lg:px-10 py-20 w-full before:w-1/2 after:w-2/4 before:h-3/4 after:h-1/4 before:-translate-y-1/4 after:translate-y-1/2 experience"
+        className="experience relative flex w-full flex-col items-center gap-16 px-6 py-20 before:absolute before:left-0 before:top-1/4 before:h-3/4 before:w-1/2 before:-translate-y-1/4 after:absolute after:right-0 after:top-2/4 after:block after:h-1/4 after:w-2/4 after:translate-y-1/2 lg:px-10"
       >
-        
         <SectionHeader meta={meta} />
         <ExperienceTree data={data} />
       </Container>
